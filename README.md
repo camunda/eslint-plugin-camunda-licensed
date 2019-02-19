@@ -1,5 +1,7 @@
 # eslint-plugin-camunda-licensed
 
+[![Build Status](https://travis-ci.org/camunda/eslint-plugin-camunda-licensed.svg?branch=master)](https://travis-ci.org/camunda/eslint-plugin-camunda-licensed)
+
 Common lint rules Camunda licensed OSS projects.
 
 
