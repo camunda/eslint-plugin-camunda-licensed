@@ -6,6 +6,10 @@ All notable changes to [eslint-plugin-camunda-licensed](https://github.com/camun
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.2.0
+
+* `CHORE`: do not package dev assets
+
 ## 0.1.0
 
 _Initial version._
