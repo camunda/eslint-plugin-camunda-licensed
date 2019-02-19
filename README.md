@@ -1,6 +1,6 @@
 # eslint-plugin-camunda-licensed
 
-Commont lint rules Camunda licensed OSS projects.
+Common lint rules Camunda licensed OSS projects.
 
 
 ## Use
