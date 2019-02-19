@@ -1,0 +1,31 @@
+{
+  "name": "eslint-plugin-camunda-licensed",
+  "version": "0.0.0",
+  "description": "Shared lint rules for Camunda licensed OSS projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bpmn-io/eslint-plugin-camunda-licensed.git"
+  },
+  "scripts": {
+    "all": "npm test",
+    "test": "cd test && npm install && npm test"
+  },
+  "keywords": [
+    "eslint",
+    "lint",
+    "rules",
+    "bpmn.io"
+  ],
+  "author": "Nico Rehwaldt <nico.rehwaldt@camunda.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-plugin-header": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0"
+  },
+  "peerDependencies": {
+    "eslint": "^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0"
+  }
+}
