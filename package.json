@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/bpmn-io/eslint-plugin-camunda-licensed.git"
+    "url": "git+ssh://git@github.com/camunda/eslint-plugin-camunda-licensed.git"
   },
   "scripts": {
     "all": "npm test",

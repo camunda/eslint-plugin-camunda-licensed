@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to [eslint-plugin-camunda-licensed](https://github.com/bpmn-io/eslint-plugin-camunda-licensed) are documented here. We use [semantic versioning](http://semver.org/) for releases.
+All notable changes to [eslint-plugin-camunda-licensed](https://github.com/camunda/eslint-plugin-camunda-licensed) are documented here. We use [semantic versioning](http://semver.org/) for releases.
 
 ## Unreleased
 
