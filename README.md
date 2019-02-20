@@ -20,7 +20,7 @@ Extend `camunda-licensed/*` in your base eslint configuration:
 
 We ship with a few blue prints:
 
-* `camunda-licensed/mit`: Use for ES5 style projects / node libraries
+* `camunda-licensed/mit`: use for libraries licensed under the MIT license
 
 
 ## Maintain Licenses
