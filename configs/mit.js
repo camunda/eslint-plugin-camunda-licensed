@@ -2,9 +2,9 @@ const path = require('path');
 
 module.exports = {
   plugins: [
-    'header'
+    'license-header'
   ],
   rules: {
-    'header/header': [2, path.join(__dirname, '/../resources/MIT-license-header.js') ]
+    'license-header/header': [2, path.join(__dirname, '/../resources/MIT-license-header.js') ]
   }
 };
