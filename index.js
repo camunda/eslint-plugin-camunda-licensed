@@ -1,13 +1,12 @@
 'use strict';
 
 var mit = require('./configs/mit');
-var camunda = require('./configs/camunda');
+var commercial = require('./configs/commercial');
 
 module.exports = {
   configs: {
     mit,
     MIT: mit,
-    camunda,
-    CAMUNDA: camunda
+    commercial
   }
 };

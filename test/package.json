@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "test": "run-s lint fix",
-    "lint": "eslint mit/valid camunda/valid",
-    "fix": "eslint mit/fix camunda/fix --fix-dry-run"
+    "lint": "eslint mit/valid commercial/valid",
+    "fix": "eslint mit/fix commercial/fix --fix-dry-run"
   },
   "devDependencies": {
     "eslint": "^4.17.0",
