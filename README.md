@@ -21,6 +21,7 @@ Extend `camunda-licensed/*` in your base eslint configuration:
 We ship with a few blue prints:
 
 * `camunda-licensed/mit`: ensures that all source files start with the [MIT license header](./resources/MIT-license-header.js)
+* `camunda-licensed/commercial`: ensures that all source files start with the [Camunda commercial license header](./resources/commercial-license-header.js)
 
 
 ## Maintain Licenses
