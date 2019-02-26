@@ -6,6 +6,10 @@ All notable changes to [eslint-plugin-camunda-licensed](https://github.com/camun
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.3.0
+
+* `FEAT`: add `commercial` preset
+
 ## 0.2.1
 
 * `FIX`: correct `mit` config to correctly handle whitespace around license headers
