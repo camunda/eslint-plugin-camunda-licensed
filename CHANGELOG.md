@@ -6,6 +6,10 @@ All notable changes to [eslint-plugin-camunda-licensed](https://github.com/camun
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.4.0
+
+* `FEAT`: add `apache` license
+
 ## 0.3.0
 
 * `FEAT`: add `commercial` preset
