@@ -27,16 +27,15 @@ We ship with a few blue prints:
 
 ## Maintain Licenses
 
-This repository will receive updates once license headers change.
+This repository will receive updates once license headers change. These changes will be released as [semantic version bumps](https://semver.org/).
 
-To initally apply license headers for all files in your project, execute
+Adding licenses as well as updating existing licenses may be carried out automatically via [auto-fixing](https://eslint.org/docs/user-guide/command-line-interface#fixing-problems):
 
 ```sh
-eslint . --fix
+eslint --fix
 ```
 
-To validate that users add the license headers as required, ensure `eslint`
-is being run as part of your CI pipeline.
+To validate that users add the license headers as required, ensure `eslint` is being run as part of your CI pipeline.
 
 
 ## License
