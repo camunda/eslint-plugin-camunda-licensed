@@ -7,7 +7,7 @@ Common lint rules Camunda licensed OSS projects.
 
 ## Use
 
-Extend `camunda-licensed/*` in your base eslint configuration:
+Extend `camunda-licensed/*` in your base [ESLint](https://eslint.org/) configuration:
 
 ```json
 {
