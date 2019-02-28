@@ -27,9 +27,9 @@ We ship with a few blue prints:
 
 ## Maintain Licenses
 
-This repository will receive updates once license headers change. These changes will be released as [semantic version bumps](https://semver.org/).
+Changes to licenses will be released as [semantic version bumps](https://semver.org/).
 
-Adding licenses as well as updating existing licenses may be carried out automatically via [auto-fixing](https://eslint.org/docs/user-guide/command-line-interface#fixing-problems):
+To automatically add/update configured license headers, run ESLint in [auto-fix mode](https://eslint.org/docs/user-guide/command-line-interface#fixing-problems):
 
 ```sh
 eslint --fix
