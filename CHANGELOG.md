@@ -6,6 +6,11 @@ All notable changes to [eslint-plugin-camunda-licensed](https://github.com/camun
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.4.1
+
+* `FIX`: correct `apache` header formating
+* `CHORE`: bump `license-header` version
+
 ## 0.4.0
 
 * `FEAT`: add `apache` license
