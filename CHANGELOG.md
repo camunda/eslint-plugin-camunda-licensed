@@ -6,6 +6,12 @@ All notable changes to [eslint-plugin-camunda-licensed](https://github.com/camun
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.4.3
+
+* `CHORE`: bump mark as `eslint@6` supported
+* `CHORE`: bump `eslint-plugin-license-header` version
+* `FIX`: correct check failure when linting empty files
+
 ## 0.4.2
 
 * `FIX`: use official, Elastic style MIT license header
