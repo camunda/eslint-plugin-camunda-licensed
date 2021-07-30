@@ -6,10 +6,14 @@ All notable changes to [eslint-plugin-camunda-licensed](https://github.com/camun
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.4.4
+
+* `DEPS`: support `eslint@7`
+
 ## 0.4.3
 
-* `CHORE`: bump mark as `eslint@6` supported
-* `CHORE`: bump `eslint-plugin-license-header` version
+* `DEPS`: bump mark as `eslint@6` supported
+* `DEPS`: bump `eslint-plugin-license-header` version
 * `FIX`: correct check failure when linting empty files
 
 ## 0.4.2
@@ -19,7 +23,7 @@ ___Note:__ Yet to be released changes appear here._
 ## 0.4.1
 
 * `FIX`: correct `apache` header formating
-* `CHORE`: bump `license-header` version
+* `DEPS`: bump `license-header` version
 
 ## 0.4.0
 
