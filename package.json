@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-camunda-licensed",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Shared lint rules for Camunda licensed OSS projects",
   "main": "index.js",
   "repository": {
