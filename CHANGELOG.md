@@ -6,6 +6,10 @@ All notable changes to [eslint-plugin-camunda-licensed](https://github.com/camun
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.4.5
+
+* `FIX`: correct `commercial` preset ([#7](https://github.com/camunda/eslint-plugin-camunda-licensed/pull/7))
+
 ## 0.4.4
 
 * `DEPS`: support `eslint@7`
