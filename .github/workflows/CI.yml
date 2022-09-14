@@ -6,7 +6,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [ 14 ]
+        node-version: [ 14, 16 ]
         eslint: [ 7, '' ]
 
     steps:
