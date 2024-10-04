@@ -1,10 +1,16 @@
-const path = require('path');
+import licenseHeaderPlugin from 'eslint-plugin-license-header';
 
-module.exports = {
-  plugins: [
-    'license-header'
-  ],
-  rules: {
-    'license-header/header': [2, path.join(__dirname, '/../resources/apache-license-header.js') ]
+import { fileURLToPath } from 'node:url';
+
+const path = fileURLToPath(new URL('../resources/apache-license-header.js', import.meta.url));
+
+export default [
+  {
+    plugins: {
+      'license-header': licenseHeaderPlugin
+    },
+    rules: {
+      'license-header/header': [2, path]
+    }
   }
-};
+]

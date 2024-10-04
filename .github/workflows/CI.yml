@@ -6,8 +6,8 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [ 14, 16 ]
-        eslint: [ 7, '' ]
+        node-version: [ 18, 20, 22 ]
+        eslint: [ '' ]
 
     steps:
     - name: Checkout
