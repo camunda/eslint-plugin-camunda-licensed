@@ -6,6 +6,17 @@ All notable changes to [eslint-plugin-camunda-licensed](https://github.com/camun
 
 ___Note:__ Yet to be released changes appear here._
 
+## 1.0.0
+
+* `FEAT`: migrate to flat config ([#20](https://github.com/bpmn-io/eslint-plugin-bpmn-io/pull/20))
+* `FEAT`: turn into ES module ([#20](https://github.com/bpmn-io/eslint-plugin-bpmn-io/pull/20))
+* `DEPS`: require `eslint@9` ([#20](https://github.com/bpmn-io/eslint-plugin-bpmn-io/pull/20))
+
+### Breaking Changes
+
+* Consume as an ES module ([#20](https://github.com/bpmn-io/eslint-plugin-bpmn-io/pull/20))
+* Use alongside eslint@9 ([#20](https://github.com/bpmn-io/eslint-plugin-bpmn-io/pull/20))
+
 ## 0.4.6
 
 * `DEPS`: support `eslint@8`
