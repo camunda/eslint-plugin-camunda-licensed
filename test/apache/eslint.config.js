@@ -1,5 +1,5 @@
-import apache from 'eslint-plugin-camunda-licensed/configs/apache.js';
+import camundaLicensedPlugin from 'eslint-plugin-camunda-licensed';
 
 export default [
-  ...apache
+  ...camundaLicensedPlugin.configs.apache
 ]

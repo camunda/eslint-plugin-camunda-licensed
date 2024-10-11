@@ -1,5 +1,5 @@
-import mit from 'eslint-plugin-camunda-licensed/configs/mit.js';
+import camundaLicensedPlugin from 'eslint-plugin-camunda-licensed';
 
 export default [
-  ...mit
+  ...camundaLicensedPlugin.configs.mit
 ]

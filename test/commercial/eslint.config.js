@@ -1,5 +1,5 @@
-import commercial from 'eslint-plugin-camunda-licensed/configs/commercial.js';
+import camundaLicensedPlugin from 'eslint-plugin-camunda-licensed';
 
 export default [
-  ...commercial
+  ...camundaLicensedPlugin.configs.commercial
 ]
