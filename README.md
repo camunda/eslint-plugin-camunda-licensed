@@ -7,22 +7,24 @@ Common lint rules Camunda licensed OSS projects.
 
 ## Use
 
-Extend `camunda-licensed/*` in your base [ESLint](https://eslint.org/) configuration:
+Extend from our [available configurations] in your ESLint config:
 
-```json
-{
-  "extends": "plugin:camunda-licensed/mit"
-}
+```javascript
+import camundaLicensedPlugin from 'eslint-plugin-camunda-licensed';
+
+export default [
+  ...camundaLicensedPlugin.configs.mit
+]
 ```
 
 
-## Available Recommended Configurations
+## Available Configurations
 
 We ship with a few blue prints:
 
-* `camunda-licensed/mit`: ensures that all source files start with the [MIT license header](./resources/MIT-license-header.js)
-* `camunda-licensed/commercial`: ensures that all source files start with the [Camunda commercial license header](./resources/commercial-license-header.js)
-* `camunda-licensed/apache`: ensures that all source files start with the [Apache Version 2.0 license header](./resources/apache-license-header.js)
+* `mit`: ensures that all source files start with the [MIT license header](./resources/MIT-license-header.js)
+* `commercial`: ensures that all source files start with the [Camunda commercial license header](./resources/commercial-license-header.js)
+* `apache`: ensures that all source files start with the [Apache Version 2.0 license header](./resources/apache-license-header.js)
 
 
 ## Maintain Licenses
