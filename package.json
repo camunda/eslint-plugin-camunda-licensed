@@ -14,7 +14,7 @@
   },
   "scripts": {
     "all": "npm test",
-    "test": "cd test && npm install && npm test"
+    "test": "npm test -w test"
   },
   "keywords": [
     "eslint",
@@ -37,5 +37,8 @@
     "configs",
     "resources",
     "index.js"
+  ],
+  "workspaces": [
+    "test"
   ]
 }
