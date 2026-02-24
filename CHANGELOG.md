@@ -6,6 +6,10 @@ All notable changes to [eslint-plugin-camunda-licensed](https://github.com/camun
 
 ___Note:__ Yet to be released changes appear here._
 
+## 1.1.0
+
+* `DEPS`: update to `eslint-plugin-license-header@0.9.0`
+
 ## 1.0.0
 
 * `FEAT`: migrate to flat config ([#20](https://github.com/bpmn-io/eslint-plugin-bpmn-io/pull/20))
